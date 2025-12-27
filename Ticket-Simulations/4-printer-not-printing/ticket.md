@@ -1,10 +1,10 @@
-# INC-0004 – Printer Not Printing (Medium)
+# Printer Not Printing (Medium)
 
 ## User report
-“My print jobs are stuck and nothing is printing.”
+“Receiving a error when trying to print.”
 
 ## Priority
-Medium
+Medium - user impacted but able to continue working without printing.
 
 ## Public comment (initial)
 Hi, thanks for reporting this. I’m investigating the printer issue now and will update you shortly.
@@ -13,20 +13,21 @@ Hi, thanks for reporting this. I’m investigating the printer issue now and wil
 Investigation started. Checking printer status and print queue on affected workstation.
 
 ## Troubleshooting (CLIENT01 - GUI)
-1) Checked printer status (Printers & scanners)
-2) Opened print queue and confirmed jobs stuck
-3) Restarted Print Spooler (services.msc)
-4) Cleared print queue
-5) Test print page successful
+- Attempted to print from the workstation and was able to reproduce the error
+- Checked the printer status and print queue
+- Verified the Print Spooler service was stopped and set to Disabled
+- Changed Print Spooler startup type to Automati
+- Restarted the Print Spooler service
+- Cleared the printer spooler cache
 
 ## Resolution notes (internal)
-Restarted Print Spooler service and cleared stuck print jobs. Printer resumed normal operation.
+Restarted the Print Spooler service via Services.msc
 
 ## Public comment (resolution)
-I’ve restarted the printer service and cleared the print queue. Please confirm printing is now working.
+I’ve restarted the printer service . Please let me know if printing is now working correctly on your end.
 
 ## Closure
-Resolved/Closed. Test print successful.
+Issue resolved and test print completed successfully. Ticket closed.
 
 ## Evidence
 Add in `evidence/`:
