@@ -45,7 +45,7 @@ Tickets completed:
 - 5 PC Running Slow (Low)
 - 6 Software Install Request (Low)
 
-See: ![Ticket-Simulations](https://github.com/khanasunil5/service-desk-ticketing-simulation/tree/34a68967bf8ce34a07fd4259b4a2b9f6c62421c1/Ticket-Simulations)
+See: [Ticket-Simulations](https://github.com/khanasunil5/service-desk-ticketing-simulation/tree/34a68967bf8ce34a07fd4259b4a2b9f6c62421c1/Ticket-Simulations)
 
 ---
 
