@@ -1,9 +1,9 @@
 # Network Drive Missing (Medium)
 
-## User report
+User report
 “Hi, I can’t see the Finance drive on my computer. It was there before but has disappeared.”
 
-## Priority
+Priority
 Medium (user can work but missing access)
 
 ## Public comment (initial)
