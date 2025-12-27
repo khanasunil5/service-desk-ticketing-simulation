@@ -1,11 +1,10 @@
 # Service Desk Ticketing Simulation (Jira ITSM)
 
 ## Overview
-This project demonstrates entry-level IT Support / Service Desk skills using:
-- Jira Service Management (Cloud)
-- A Windows Active Directory home lab
+This project was built to practise and demonstrate basic IT Support / Service Desk work using a small home lab and Jira Service Management.
 
-Focus: ticket handling, troubleshooting, and user communication.
+The focus is on how tickets are handled day to day:
+logging issues, prioritising them, troubleshooting common problems, communicating with users, and closing tickets properly once the issue is fixed.
 
 ---
 
@@ -16,7 +15,7 @@ Focus: ticket handling, troubleshooting, and user communication.
 **Domain Controller (DC01)**
 - Windows Server 2019
 - IP: 192.168.100.10 (static)
-- Services: AD DS, DNS, Event Viewer
+- Used for Active Directory and DNS
 
 **Client Machine (CLIENT01)**
 - Windows 11
@@ -38,21 +37,13 @@ See: `/portal-design/`
 
 ---
 
-## Ticket Simulations
-Each ticket includes:
-- User-submitted request
-- Agent triage (internal notes)
-- Troubleshooting steps
-- Resolution and verification
-- Evidence screenshots
-
 Tickets completed:
-- INC-0001 Account Locked Out (High)
-- INC-0002 No Internet Access (High)
-- INC-0003 Network Drive Missing (Medium)
-- INC-0004 Printer Not Printing (Medium)
-- INC-0005 PC Running Slow (Low)
-- INC-0006 Software Install Request (Low)
+- 1 Account Locked Out (High)
+- 2 No Internet Access (High)
+- 3 Network Drive Missing (Medium)
+- 4 Printer Not Printing (Medium)
+- 5 PC Running Slow (Low)
+- 6 Software Install Request (Low)
 
 See: `/ticket-simulations/`
 
