@@ -1,13 +1,14 @@
-# 6 – Software Installation Request (Low)
+# Software Installation Request (Low)
 
 ## User report
-“I can’t open PDF files that clients send.”
+I can’t open PDF files that clients send.
 
 ## Priority
 Low
 
 ## Public comment (initial)
-Hi, thanks for your request. I’m reviewing the software request against our approved application list and will update you shortly.
+Hi L Knox,
+Thanks for your request. I’m reviewing the software request against our approved application list and will update you shortly.
 
 ## Internal note (approval)
 Verified Adobe Reader is approved standard software. Installation permitted without manager approval.
@@ -15,11 +16,11 @@ Verified Adobe Reader is approved standard software. Installation permitted with
 ## Public comment (action)
 Adobe Reader is an approved application. I’ll connect to your workstation remotely shortly to complete the installation and will confirm once done.
 
-## Remote action (RDP from DC01 → CLIENT01)
-- Connected via RDP using admin credentials
-- Downloaded Adobe Reader from official vendor source
+## Work carried out
+- Connected to CLIENT01 via RDPP using admin credentials
+- Downloaded Adobe Reader from the official Adobe website
 - Installed successfully, avoided bundled software
-- Confirmed installed version (Help → About)
+- Checked version via Help then About
 - Logged off RDP session after completion
 
 ## Public comment (completion)
