@@ -1,4 +1,4 @@
-# Account Locked Out (High)
+Account Locked Out (High)
 
 ## Environment
 - Tool: Jira Service Management (Cloud)
